@@ -28,9 +28,11 @@ public class App {
         return inp.nextLine();
     }
     private double calcTax(int amount){
+
         return amount * taxRate;
     }
     private double calcTotal(int amount, double tax){
+
         return amount + tax;
     }
 }
